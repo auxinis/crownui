@@ -1,0 +1,7 @@
+*.iml
+.idea/
+*.bak
+.DS_Store
+*.json.gzip
+node_modules/
+dist
