@@ -1,10 +1,15 @@
 import React from 'react'
 
-import { ExampleComponent } from 'crownui'
+import { Button, ExampleComponent } from 'crownui'
 import 'crownui/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="UI Library 😎" />
+  return (
+    <>
+      <ExampleComponent text="UI Library 😎" />
+      <Button children="Default Button" />
+    </>
+  );
 }
 
 export default App
